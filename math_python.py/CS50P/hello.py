@@ -1,9 +1,14 @@
+#first function
 
-def hello():
+def main():
+
     name = input("whats your name?").strip().title()
+    hello(name)
 
-    # say hello to user
-    print(f"hello, {name}") 
 
-hello()
+def hello(to):
 
+	print(f"hello,", to) 
+
+    # say hello to use
+main()
