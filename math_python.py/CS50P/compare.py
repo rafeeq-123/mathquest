@@ -1,10 +1,10 @@
 x = float(input("what your value? for x "))
 y = float(input("whats your value for y "))
 
-if x < y or x > y:
+if x != y:
 
-	print("crazyyyyyy")
+	print("It is not equals")
 
 else:
 
-	print("equalllll")
+	print("it is equal")
